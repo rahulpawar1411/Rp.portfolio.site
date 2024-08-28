@@ -863,6 +863,76 @@ i {
     background-color: #000;
 }
 
+
+
+ /* --------------11111111111111111--------copy submit*/
+
+
+
+ #page5 #fill .submitcopy{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    position: relative;
+    display: none;
+}
+
+#page5 #fill .bubcopy {
+    width: 30px;
+    height: 30px;
+    /* background-color:rgb(252, 71, 39); */
+    border-radius: 50%;
+    /* position: relative; */
+    position: absolute;
+    /* z-index: 8; */
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#page5 #fill .bubcopy .ab-bubcopy {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* background-color: red; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#page5 #fill .bubcopy .ab-bubcopy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #000000e5;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: font2;
+    letter-spacing: 2px;
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+#page5 #fill .bubcopy .ab-bubcopy button:hover {
+    background-color: #000;
+}
+
+
 /* ----------------------------------------------------------page6 */
 #page6 {
     width: 100%;
@@ -966,6 +1036,7 @@ i {
         display : flex;
         justify-content: center;
         align-items: center;
+        font-size: 3.5vw;
     }
     
     #nav2 .min1:hover,
@@ -1000,6 +1071,7 @@ i {
         display : flex;
         justify-content: center;
         align-items: center;
+        font-size: 3.5vw;
     }
     
     #nav2 .min2:hover {
@@ -1020,6 +1092,7 @@ i {
         left: 81.5%;
         z-index: 3;
         transition: .5s;
+        margin-left: 6px;
     
     }
     
@@ -1034,6 +1107,7 @@ i {
         display : flex;
         justify-content: center;
         align-items: center;
+        font-size: 3.5vw;
     }
     
     #nav2 .min3:hover {
@@ -1101,7 +1175,7 @@ i {
     #page1 {
         width: 100%;
         height: 100vh;
-        /* background-color: rgb(85, 24, 24); */
+        background-color: #F8F8F8;
         position: relative;
     }
     
@@ -1110,14 +1184,14 @@ i {
         height: 100%;
         font-size: 22vw;
         color: #171718e5;
-        /* background-color: #a72c2c; */
+        /* background-color: #882323; */
         display: flex;
         justify-content: start;
         align-items: center;
     
         position: absolute;
         left: 50%;
-        top: 55%;
+        top: 50%;
         transform: translate(-50%, -50%);
         /* letter-spacing: -11px; */
         line-height: 80px;
@@ -1147,7 +1221,7 @@ i {
 #page2 {
     width: 100%;
     min-height: 100vh;
-    /* background-color: rgb(255, 203, 203); */
+    background-color: #F8F8F8;
     position: relative;
 }
 
@@ -1176,7 +1250,7 @@ i {
     min-height: 100vh;
     /* background-color: rgb(122, 218, 235); */
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     padding-right: 10px;
@@ -1186,7 +1260,7 @@ i {
 
 #page2 #pro-cantain .pro {
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
     cursor: pointer;
@@ -1236,10 +1310,9 @@ i {
 }
 
 #page2 #pro-cantain .pro p {
-    font-size: 1.1vw;
+    font-size: 4vw;
     width: 100%;
     height: 50%;
-    font-size: 3vw;
     /* background-color: rgb(255, 0, 234); */
     padding: 10px;
 
@@ -1293,7 +1366,7 @@ i {
     width: 100%;
     min-height: 150vh;
     /* background-color: rgb(160, 243, 77); */
-    padding-top: 40px;
+    padding-top: 10px;
 
 }
 
@@ -1316,11 +1389,11 @@ i {
 #page3 #about-can {
     width: 100%;
     height: 150vh;
-    /* background-color: blueviolet; */
+    background-color: #F8F8F8;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     position: relative;
 }
@@ -1330,10 +1403,10 @@ i {
 #page3 #about-can .left {
     width: 80%;
     height: 80vh;
-    /* background-color: red; */
+    background-color: #F8F8F8;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 0;
 
 }
 
@@ -1344,22 +1417,35 @@ i {
     object-position: 0 -40px;
 }
 
+#page3 #about-can .left img:hover{
+    scale: 1;
+}
+
 /* ------------------------------------------------right */
 
 
 #page3 #about-can .right {
     width: 90%;
-    height: 150vh;
-    /* background-color: #666666; */
+    height: 100vh;
+    background-color: #F8F8F8;
     border-radius: 10px;
     padding: 20px;
     position: relative;
-    margin-left: 20px;
+    margin-left: 0;
+    display : flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 .right .name {
     /* background-color: red; */
     margin-bottom: 20px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .right .name h1 {
@@ -1368,16 +1454,23 @@ i {
 }
 
 .right .name p {
+    /* background-color: green; */
     font-size: 4vw;
     color: #000000;
     font-family: font3;
     line-height: 20px;
+    text-align: center;
 }
 
 /* ----------------pro-skills */
 
 .right .pro-skills {
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    /* background-color: red; */
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .right .pro-skills h1 {
@@ -1390,6 +1483,7 @@ i {
     color: #000000;
     font-family: font3;
     line-height: 20px;
+    text-align: center;
 }
 
 /* --------------------------lang-logo */
@@ -1534,7 +1628,7 @@ i {
 
 #page5 #fill{
     width: 80%;
-    height: 110vh;
+    height: 95vh;
     background-color: #ffffff;
     margin-top: 20px;
     padding: 20px;
@@ -1622,6 +1716,7 @@ i {
     height: 20%;
     /* background-color: red; */
     position: relative;
+    display: none;
 }
 
 #page5 #fill .bub {
@@ -1679,13 +1774,83 @@ i {
     background-color: #000;
 }
 
+
+/* ---------------------------------submitcopy */
+
+
+#page5 #fill .submitcopy{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    position: relative;
+    display: block;
+}
+
+#page5 #fill .bubcopy {
+    width: 30px;
+    height: 30px;
+    /* background-color:rgb(252, 71, 39); */
+    border-radius: 50%;
+    /* position: relative; */
+    position: absolute;
+    /* z-index: 8; */
+    left: 20%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+#page5 #fill .bubcopy .ab-bubcopy {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#page5 #fill .bubcopy .ab-bubcopy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #000000e5;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: font2;
+    letter-spacing: 2px;
+    font-size: 3vw;
+    font-weight: 100;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+#page5 #fill .bubcopy .ab-bubcopy button:active{
+    color: #000;
+    background-color: #838383;
+}
+
+
+
 /* ----------------------------------------------------------page6 */
 
 
 #page6 {
     width: 100%;
     min-height: 15vh;
-    /* background-color: lightcoral; */
+    background-color: #F8F8F8;
     display : flex;
     justify-content: center;
     align-items: center;

@@ -88,7 +88,7 @@ function openNav() {
 
 
     gsap.to(".min3", {
-      left: "53%",
+      left: "52%",
       width: "100px",
       height: "60%",
       // display:"none"
