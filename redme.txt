@@ -11,4 +11,3 @@
 
 [responsive mai screen size ===>  ( 360 x 680 ) ka use kr ke kiya hai,]
 
-s
