@@ -1365,7 +1365,7 @@ i {
 #page3 {
     width: 100%;
     min-height: 140vh;
-    background-color: rgb(160, 243, 77);
+    /* background-color: rgb(229, 248, 209); */
     padding-top: 10px;
 
 }
@@ -1393,7 +1393,7 @@ i {
 #page3 #about-can {
     width: 100%;
     height: 130vh;
-    background-color: #f71717;
+    /* background-color: #f71717; */
     padding: 0;
     display: flex;
     justify-content: start;
@@ -1412,6 +1412,7 @@ i {
     overflow: hidden;
     border-radius: 50%;
     margin-left: 0;
+    border: none;
 
 }
 
@@ -1420,6 +1421,7 @@ i {
     height: 100%;
     object-fit: cover;
     /* object-position: 0 -40px; */
+    
 }
 
 #page3 #about-can .left img:hover{
