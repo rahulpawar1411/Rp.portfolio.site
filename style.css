@@ -432,12 +432,12 @@ i {
 }
 
 #page2 #pro-cantain .pro p {
-    font-size: 1.1vw;
-    width: 50%;
+    font-size: 1.3vw;
+    width: 70%;
     height: 50%;
     /* background-color: rgb(255, 0, 234); */
     padding: 10px;
-
+      color: #2F2F30;
     font-family: font3;
 }
 
@@ -522,7 +522,7 @@ i {
     /* background-color: red; */
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 10px;
 
 }
@@ -567,10 +567,10 @@ i {
 }
 
 .right .pro-skills p {
-    width: 100%;
+    width: 90%;
     padding: 0 20px;
     /* background-color: red; */
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: #000000;
     font-family: font3;
     text-align: center;
@@ -589,8 +589,8 @@ i {
     /* position: relative; */
     position: absolute;
     /* z-index: 8; */
-    left: 75%;
-    top: 85%;
+    left: 80%;
+    top: 88%;
     transform: translate(-50%, -50%);
 
 }
@@ -1218,7 +1218,9 @@ i {
     border-bottom: 1px solid #000;
     margin-top: 10px;
 }
-
+#page2 #pro-cantain .pro img{
+    display: none;
+}
 #page2 #pro-cantain .pro:nth-last-child(1) {
     width: 100%;
     height: 40%;
@@ -1260,7 +1262,7 @@ i {
     height: 50%;
     /* background-color: rgb(255, 0, 234); */
     padding: 10px;
-
+    color: #2F2F30;
     font-family: font3;
 }
 
@@ -1282,6 +1284,7 @@ i {
 }
 
 #page2 #pro-cantain .pro img {
+    display: none;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -1305,12 +1308,13 @@ i {
     z-index: 6;
 }
 
+
 /* ---------------------------------------------page3 */
 
 #page3 {
     width: 100%;
-    min-height: 140vh;
-    /* background-color: rgb(229, 248, 209); */
+    min-height: 150vh;
+    background-color: #F8F8F8;
     padding-top: 10px;
 
 }
@@ -1337,7 +1341,7 @@ i {
 
 #page3 #about-can {
     width: 100%;
-    height: 130vh;
+    height: 140vh;
     /* background-color: #f71717; */
     padding: 0;
     display: flex;
@@ -1352,8 +1356,8 @@ i {
 
 #page3 #about-can .left {
     width: 55%;
-    height: 25vh;
-    background-color: #F8F8F8;
+    height: 35vh;
+    /* background-color: #44ffc1; */
     overflow: hidden;
     border-radius: 50%;
     margin-left: 0;
@@ -1374,8 +1378,8 @@ i {
 
 #page3 #about-can .right {
     width: 90%;
-    height: 75%;
-    background-color: #F8F8F8;
+    height: 100%;
+    background-color:#F8F8F8;
     border-radius: 10px;
     padding: 10px 10px;
     position: relative;
@@ -1396,6 +1400,7 @@ i {
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .right .pro-skills h1 {
@@ -1434,7 +1439,7 @@ i {
     position: absolute;
     /* z-index: 8; */
     left: 75%;
-    top: 90%;
+    top: 92%;
     transform: translate(-50%, -50%);
 
 }
@@ -1479,7 +1484,15 @@ i {
 
 }
 
-#page3 .bub .ab-bubcopy:active{
+#page3 .bub .ab-bubcopy a:active{
+    background-color: #000000b9;
+}
+
+#page3 .bub .ab-bubcopy a:focus{
+    background-color: #000000b9;
+}
+
+#page3 .bub .ab-bubcopy a::selection{
     background-color: #000000b9;
 }
 
@@ -1788,7 +1801,7 @@ i {
 
 .mini {
     width: 25%;
-    height: 20%;
+    height: 15%;
     background-color: #383838be;
     display: flex;
     justify-content: center;

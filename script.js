@@ -281,11 +281,6 @@ function bubsubmit() {
       scale: 1,
 
     })
-
-    document.querySelector(".submit .bub .ab-bub button")
-    .addEventListener("click", function(){
-      alert("wait a min. for proseing!");
-    })
   })
 
 }
