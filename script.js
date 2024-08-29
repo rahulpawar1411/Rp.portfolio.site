@@ -44,8 +44,6 @@ function loco() {
 loco()
 
 
-
-
 var min1 = document.querySelector(".min1");
 var min2 = document.querySelector(".min2");
 var min3 = document.querySelector(".min3");
@@ -162,11 +160,6 @@ function closeNav() {
   })
 }
 closeNav()
-
-
-
-
-
 
 
 function project() {
@@ -299,11 +292,7 @@ function bubsubmit() {
 bubsubmit()
 
 
-
-
 // -----------------------------------------------------animations
-
-
 
 
 function loader() {
@@ -332,6 +321,28 @@ function loader() {
     // delay: 1.1,
   })
 
+  tl.from("#page1 h1", {
+  y: 100,
+  opacity: 0,
+  duration:1,
+  },"p1")
+  tl.from("#page1 p", {
+    y: 100,
+    opacity: 0,
+    duration:1,
+    },"p1")
+
 
 }
 loader()
+
+
+
+// function navscroll(){
+//   const page1 = document.querySelector("#page1");
+
+//   const navp1 = document.querySelector(".navp1")
+//   .addEventListener("click",function(){
+//     page1.scrollIntoView({behavior:"smooth"})
+//   })
+// }

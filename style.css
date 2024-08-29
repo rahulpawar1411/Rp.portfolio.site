@@ -38,7 +38,8 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #F8F8F8;
+    background-color: #F8F8F8; 
+    scroll-behavior: smooth;
 }
 
 
@@ -522,6 +523,7 @@ i {
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid black;
+    margin-bottom: 10px;
 
 }
 
@@ -545,7 +547,7 @@ i {
     height: 100%;
     /* background-color: #666666; */
     border-radius: 10px;
-    padding: 20px;
+    padding: 0px;
     position: relative;
 }
 
@@ -577,65 +579,6 @@ i {
     line-height: 40px;
     margin-bottom: 50px;
 }
-
-/* --------------------------lang-logo */
-
-/* .right .lang-logo{
-    width:80%;
-    height: 100px;
-    margin-left: 80px;
-} */
-
-
-.scroll-container {
-    width: 80%;
-    height: 80px;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    /* Center the container */
-    box-shadow: inset 10px 0 10px 10px rgba(248, 248, 248, 0.7), inset -10px 0 10px -10px rgba(248, 248, 248, 0.7);
-    /* White shadow on both sides */
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F8F8F8;
-}
-
-/* Inner container for scrolling images */
-.scroll-content {
-    display: flex;
-    height: 50%;
-    width: max-content;
-    animation: scroll 50s linear infinite;
-    gap: 10px;
-    /* background-color: #F8F8F8; */
-}
-
-/* Individual images */
-.scroll-content img {
-    height: 100%;
-    width: auto;
-    margin-right: 10px;
-    /* Space between images */
-    transition: .5s;
-}
-.scroll-content img:hover{
-    scale:2;
-}
-
-/* Keyframes for the infinite scrolling animation */
-@keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-
 
 
 /* ------------------------------------bub btn */
