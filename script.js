@@ -220,12 +220,12 @@ project()
 
 function bubBtn() {
    var page3 = document.querySelector("#page3 ");
-  var aboutbtn = document.querySelector("#page3 .right .bub .ab-bub");
-  var aboutcan = document.querySelector("#page3 .bub ");
+  var aboutbtn = document.querySelector("#page3 #about-can .bub .ab-bub");
+  var aboutcan = document.querySelector("#page3 #about-can .bub ");
 
   aboutcan.addEventListener("mousemove", function (dets) {
 
-    gsap.to("#page3 .right .bub .ab-bub", {
+    gsap.to("#page3 #about-can .bub .ab-bub", {
       x: dets.x - aboutbtn.getBoundingClientRect().x - 60,
       y: dets.y - aboutbtn.getBoundingClientRect().y - 100,
       scale: 1.1,
@@ -234,7 +234,7 @@ function bubBtn() {
    
   })
   aboutcan.addEventListener("mouseenter", function () {
-    gsap.to("#page3 .right .bub .ab-bub", {
+    gsap.to("#page3 #about-can .bub .ab-bub", {
       // x:"50%",
       // y:"50%",
 
@@ -242,7 +242,7 @@ function bubBtn() {
    
   })
   aboutcan.addEventListener("mouseleave", function () {
-    gsap.to("#page3 .right .bub .ab-bub", {
+    gsap.to("#page3 #about-can .bub .ab-bub", {
       x: "0%",
       y: "0%",
       scale: 1,
