@@ -1559,8 +1559,8 @@ i {
     #page6 {
         width: 100%;
         min-height: 10vh;
-        /* background-color: #F8F8F8; */
-        background-color: rgb(230, 252, 154);
+        background-color: #F8F8F8;
+        /* background-color: rgb(230, 252, 154); */
         display: flex;
         justify-content: center;
         align-items: center;
