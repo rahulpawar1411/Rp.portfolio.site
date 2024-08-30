@@ -1330,7 +1330,7 @@ i {
 
     #page3 #about-can .imgdiv{
         width: 50%;
-        height: 25vh;
+        height: 160px;
     }
 
     #page3 #about-can h1{
@@ -1558,8 +1558,9 @@ i {
 
     #page6 {
         width: 100%;
-        min-height: 15vh;
-        background-color: #F8F8F8;
+        min-height: 10vh;
+        /* background-color: #F8F8F8; */
+        background-color: rgb(230, 252, 154);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1616,8 +1617,8 @@ i {
     }
 
     .mini {
-        width: 25%;
-        height: 15%;
+        width: 30%;
+        height: 16%;
         background-color: #c2bfbfbe;
         display: flex;
         justify-content: center;
