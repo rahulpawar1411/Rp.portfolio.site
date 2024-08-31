@@ -1395,7 +1395,7 @@ i {
 
     #page5 {
         width: 100%;
-        min-height: 105vh;
+        min-height: 100vh;
         background-color: #F8F8F8;
         /* background-color: greenyellow; */
         display: flex;
@@ -1415,7 +1415,7 @@ i {
     #page5 #fill {
         width: 80%;
         height: 100%;
-        background-color: #ffffff;
+        background-color: hsl(0, 0%, 100%);
         margin-top: 20px;
         padding: 20px;
         border-radius: 10px;
