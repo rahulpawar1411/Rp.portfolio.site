@@ -623,8 +623,9 @@ i {
 
 #page5 {
     width: 100%;
-    min-height: 220vh;
+    min-height: 150vh;
     background-color: #F8F8F8;
+    /* background-color:green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -641,7 +642,7 @@ i {
 
 #page5 #fill {
     width: 40%;
-    height: 120vh;
+    height: 100vh;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
@@ -1394,7 +1395,7 @@ i {
 
     #page5 {
         width: 100%;
-        min-height: 115vh;
+        min-height: 105vh;
         background-color: #F8F8F8;
         /* background-color: greenyellow; */
         display: flex;
