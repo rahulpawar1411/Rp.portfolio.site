@@ -255,36 +255,36 @@ function bubBtn() {
 bubBtn()
 
 
-function bubsubmit() {
-  var aboutbtn = document.querySelector("#page5 #fill .submit .bub .ab-bub");
-  var aboutcan = document.querySelector("#page5 #fill .submit  .bub ");
+// function bubsubmit() {
+//   var aboutbtn = document.querySelector("#page5 #fill .submit .bub .ab-bub");
+//   var aboutcan = document.querySelector("#page5 #fill .submit  .bub ");
 
-  aboutcan.addEventListener("mousemove", function (dets) {
+//   aboutcan.addEventListener("mousemove", function (dets) {
 
-    gsap.to(" .bub .ab-bub", {
-      x: dets.x - aboutbtn.getBoundingClientRect().x - 60,
-      y: dets.y - aboutbtn.getBoundingClientRect().y - 100,
-      scale: 1.1,
-    })
-  })
-  aboutcan.addEventListener("mouseenter", function () {
-    gsap.to(".bub .ab-bub", {
-      // x:"50%",
-      // y:"50%",
+//     gsap.to(" .bub .ab-bub", {
+//       x: dets.x - aboutbtn.getBoundingClientRect().x - 60,
+//       y: dets.y - aboutbtn.getBoundingClientRect().y - 100,
+//       scale: 1.1,
+//     })
+//   })
+//   aboutcan.addEventListener("mouseenter", function () {
+//     gsap.to(".bub .ab-bub", {
+//       // x:"50%",
+//       // y:"50%",
 
-    })
-  })
-  aboutcan.addEventListener("mouseleave", function () {
-    gsap.to(" .bub .ab-bub", {
-      x: "0%",
-      y: "0%",
-      scale: 1,
+//     })
+//   })
+//   aboutcan.addEventListener("mouseleave", function () {
+//     gsap.to(" .bub .ab-bub", {
+//       x: "0%",
+//       y: "0%",
+//       scale: 1,
 
-    })
-  })
+//     })
+//   })
 
-}
-bubsubmit()
+// }
+// bubsubmit()
 
 
 // -----------------------------------------------------animations
@@ -328,6 +328,20 @@ function loader() {
     },"p1")
 
 
+
+    tl.to("#page8 .wav", {
+      y: 100,
+      // opacity: 0,
+      // duration: .5,
+      scrollTrigger:{
+        trigger: "#page8 .wav",
+        scroller: "#main",
+        // markers: true,
+        start: "top 50%",
+        end:"top 20%",
+        scrub:2,
+      }
+      })
 }
 loader()
 

@@ -13,3 +13,50 @@
 
 
 [formsubmiting ke liye youtube like === https://youtu.be/RaU_n4vcfiA?si=JmAAFvJxN2Y4sRsu ] 
+
+
+
+
+
+---------------------------------------------page5 ka code-------------------------------------->
+
+  <div id="page5">
+
+            <h1 id="contact">CONTACT</h1>
+
+            <form action="https://formsubmit.co/09b5a6ce82a55020fc9bf18734fb0526" method="POST" id="fill">
+
+                <!-- <form action="https://api.web3forms.com/submit" method="POST" id="fill">
+
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"> -->
+
+                <h2>Full Name</h2>
+                <input type="text" name="name" placeholder="ex. narendra modi" required autocomplete="off">
+
+                <!-- <h2>Last Name</h2>
+                <input type="text" name="name" placeholder="ex. modi" required autocomplete="off"> -->
+
+                <h2>Your Email</h2>
+                <input type="email" name="email" placeholder="ex. modiji@gmail.com" required autocomplete="off">
+
+                <h2>Message</h2>
+                <textarea name="Message" id="Message" placeholder="ex. hi How are you!" autocomplete="off"></textarea>
+
+                <div class="submit">
+                    <div class="bub">
+                        <div class="ab-bub">
+                            <button type="submit">SUBMIT</button>
+                            <!-- <a href="#" type="submit">Submit</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ab-bubcopy">
+                    <button type="submit">SUBMIT</button>
+                    <!-- <a href="#" type="submit">Submit</a> -->
+                </div>
+
+            </form>
+
+
+        </div>

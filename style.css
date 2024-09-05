@@ -294,7 +294,6 @@ a:active {
 
 /* ---------------------------------------page1 */
 
-
 #page1 {
     width: 100%;
     height: 100vh;
@@ -908,6 +907,62 @@ i {
     background-color: #fff;
 }
 
+/* ---------------------------------------------page8  new */
+
+#page8 {
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+#page8 .wav {
+    width: 120%;
+    height: 100px;
+    background-color: #111111;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#page8 .con-text {
+    font-size: 8vw;
+    font-family: font3;
+    padding: 60px;
+    color: #F8F8F8;
+
+}
+
+#page8 .con-text a {
+    font-size: 8vw;
+    font-family: font3;
+    text-decoration: none;
+    /* background-color: green; */
+    color: #da9b7c;
+    transition: 0.2s;
+
+}
+
+#page8 .con-text a:hover {
+    border-bottom: 4px solid #da9b7c;
+}
+
+#page8 h2{
+    margin-top: 50px;
+    /* background-color: red; */
+    font-size: 1.3vw;
+    font-family: font2;
+    letter-spacing: 2px;
+    color: #ffffffc0;
+}
 
 
 /* ------------------------------responsive---------------------------- */
@@ -1311,7 +1366,7 @@ i {
         padding-top: 10px;
     }
 
-    #page3 .about{
+    #page3 .about {
         width: 100%;
         height: 10vh;
         /* background-color: red; */
@@ -1319,27 +1374,28 @@ i {
         font-family: font2;
     }
 
-    #page3 .about h1{
+    #page3 .about h1 {
         font-size: 10vw;
         font-family: font2;
     }
 
-    #page3 #about-can{
+    #page3 #about-can {
         width: 100%;
         height: 100%;
         /* background-color: salmon; */
         padding: 0 10px;
     }
 
-    #page3 #about-can .imgdiv{
+    #page3 #about-can .imgdiv {
         width: 50%;
         height: 160px;
     }
 
-    #page3 #about-can h1{
+    #page3 #about-can h1 {
         font-size: 7vw;
     }
-    #page3 #about-can p{
+
+    #page3 #about-can p {
         /* background-color: red; */
         font-size: 5vw;
         line-height: 25px;
@@ -1352,43 +1408,43 @@ i {
     /* ------------------------------------bub btn */
 
 
-#page3 #about-can  .ab-bubcopy {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    /* background-color: green; */
-    display: block;
-    margin-left: 50%;
+    #page3 #about-can .ab-bubcopy {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /* background-color: green; */
+        display: block;
+        margin-left: 50%;
 
-}
+    }
 
-#page3 #about-can .ab-bubcopy a {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    align-items: center;
-    text-decoration: none;
-    background-color: #000000e0;
-    border: none;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    font-family: font2;
-    letter-spacing: 2px;
-    font-size: 3vw;
-    font-weight: 100;
-    color: #fff;
-    overflow: hidden;
+    #page3 #about-can .ab-bubcopy a {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        align-items: center;
+        text-decoration: none;
+        background-color: #000000e0;
+        border: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        font-family: font2;
+        letter-spacing: 2px;
+        font-size: 3vw;
+        font-weight: 100;
+        color: #fff;
+        overflow: hidden;
 
-}
+    }
 
-#page3 #about-can .bubcopy .ab-bubcopy a:hover {
-    background-color: #000;
-}
+    #page3 #about-can .bubcopy .ab-bubcopy a:hover {
+        background-color: #000;
+    }
 
-#page3 #about-can .bub {
-    display: none;
-}
+    #page3 #about-can .bub {
+        display: none;
+    }
 
 
     /* ------------------------------------page5 */
@@ -1517,42 +1573,42 @@ i {
 
 
     #page5 #fill .ab-bubcopy {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    /* background-color: green; */
-    display: block;
-    /* margin-left: 60%; */
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /* background-color: green; */
+        display: block;
+        /* margin-left: 60%; */
 
-}
+    }
 
-#page5 #fill .ab-bubcopy button {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    align-items: center;
-    text-decoration: none;
-    background-color: #000000e0;
-    border: none;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    font-family: font2;
-    letter-spacing: 2px;
-    font-size: 3vw;
-    font-weight: 100;
-    color: #fff;
-    overflow: hidden;
+    #page5 #fill .ab-bubcopy button {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        align-items: center;
+        text-decoration: none;
+        background-color: #000000e0;
+        border: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        font-family: font2;
+        letter-spacing: 2px;
+        font-size: 3vw;
+        font-weight: 100;
+        color: #fff;
+        overflow: hidden;
 
-}
+    }
 
-#page5 #fill .ab-bubcopy a:hover {
-    background-color: #000;
-}
+    #page5 #fill .ab-bubcopy a:hover {
+        background-color: #000;
+    }
 
-#page5 #about-can .bub {
-    display: none;
-}
+    #page5 #about-can .bub {
+        display: none;
+    }
 
 
 
@@ -1639,5 +1695,67 @@ i {
         opacity: 0;
     }
 
+    /* ------------------------------------page8 */
+
+
+    #page8 {
+        width: 100%;
+        height: 100vh;
+        background-color: #111111;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    #page8 .wav {
+        width: 120%;
+        height: 100px;
+        background-color: #cf3232;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        display: none;
+    }
+    
+    #page8 .con-text {
+        font-size: 15vw;
+        font-family: font3;
+        padding: 30px;
+        color: #F8F8F8;
+        /* background-color: red; */
+        margin-bottom: 40px;
+    
+    }
+    
+    #page8 .con-text a {
+        font-size: 16vw;
+        font-family: font3;
+        text-decoration: none;
+        /* background-color: green; */
+        color: #da9b7c;
+        transition: 0.2s;
+    
+    }
+    
+    #page8 .con-text a:hover {
+        border-bottom: 4px solid #da9b7c;
+    }
+    
+    #page8 h2{
+        /* display: none; */
+        margin-top: 50px;
+        /* background-color: red; */
+        font-size: 3vw;
+        font-family: font2;
+        letter-spacing: 2px;
+        color: #ffffffc0;
+    }
+    
 
 }
